@@ -28,7 +28,7 @@ function StopWatch() {
     }
 
     const handleReset = () => {
-        setTime(0);
+        setElapsedTime(0);
         setIsRunning(false);
     }
 
